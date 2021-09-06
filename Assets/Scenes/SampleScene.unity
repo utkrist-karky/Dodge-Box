@@ -140,7 +140,7 @@ GameObject:
   - component: {fileID: 182554264}
   m_Layer: 0
   m_Name: Dodgy
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1281,10 +1281,11 @@ GameObject:
   - component: {fileID: 2144524651}
   - component: {fileID: 2144524650}
   - component: {fileID: 2144524649}
-  - component: {fileID: 2144524648}
   - component: {fileID: 2144524647}
+  - component: {fileID: 2144524653}
+  - component: {fileID: 2144524648}
   m_Layer: 0
-  m_Name: Sphere
+  m_Name: DroppingSphere
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1394,3 +1395,16 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2144524653
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2144524646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bf3cfd71a02254fffbc4a566cd51d6f1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  timeToWait: 5
