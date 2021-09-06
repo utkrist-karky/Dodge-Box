@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class ObjectHit : MonoBehaviour
 {
- 
+    [SerializeField] bool makeRed = false; 
     private void OnCollisionEnter(Collision other) {
-      
+        
         if(other.gameObject.tag == "Player"){
-            GetComponent<MeshRenderer>().material.color = Color.red;
+            if(makeRed){
+                GetComponent<MeshRenderer>().material.color = Color.red;
+            }
             gameObject.tag = "Hit";
         }
   

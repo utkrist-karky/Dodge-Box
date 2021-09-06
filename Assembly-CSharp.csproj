@@ -37,9 +37,10 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\ObjectHit.cs" />
+     <Compile Include="Assets\Scripts\ballFall.cs" />
      <Compile Include="Assets\Scripts\Scorer.cs" />
      <Compile Include="Assets\Scripts\Mover.cs" />
-     <Compile Include="Assets\Scripts\ballFall.cs" />
+     <Compile Include="Assets\Scripts\rotaion.cs" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.17f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
     </Reference>

@@ -5,7 +5,7 @@ using UnityEngine;
 public class Mover : MonoBehaviour
 {
     
-
+    [SerializeField]float speed = 10f; 
     // Start is called before the first frame update
     void Start()
     {
@@ -19,7 +19,7 @@ public class Mover : MonoBehaviour
     }
 
     void MovePlayer(){
-        float speed = 10;
+        
         float xValue = Input.GetAxis("Horizontal")*Time.deltaTime*speed;
         float zValue = Input.GetAxis("Vertical")*Time.deltaTime*speed;
         transform.Translate(xValue,0,zValue);
